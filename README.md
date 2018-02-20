@@ -1,35 +1,21 @@
-# 04a-Exercises-pygame-shapes
+The objective of the first exercise is to comment on the lines of code (line by line) and explain what was
+happening in each line as it related to the program as a whole. The end product was a simple black screen
+which is what should be present once you hit run. The comments do nothing to the actual program.
 
-Here are some exercises to help you learn about PyGame, the engine we will be using throughout the rest of the semester.
+The second exercise is a program that once run, it will display rectangles of random sizes and random
+colours. This exercise required editing and adding lines of code. The main blocks that are used are the 
+main() block as well as the game loop. The main() function simply defined some of the variables that would
+be used in the program. Then in the game loop, the events that occur in the program once you hit play are 
+organized. For instance the color is defined as well as the attributes for the rectangle including color,
+height, width, and position on the screen in relation to the screen size. The rectangles will appear
+infinitely or until the program is stopped by closing out of the window.
 
-If you are using PyCharm, here is a video that shows you [how to install PyGame](https://www.youtube.com/watch?v=zwY4dzvbBwE) through that IDE. If you want to install it without using PyCharm, there are instructions on the PyGame [Getting Started Wiki](https://www.pygame.org/wiki/GettingStarted).
+The third exercise displays a digital clock on the black screen. The methods used to show the current time
+is defined and converted to a string so that it is able to be displayed on the screen. It appears along 
+side the text 'Hello World!'.
 
-There are four exercise files in this repository. Follow the instructions in each of them to fulfill the exercise. Then commit your changes to your repository and push them back to GitHub.
-
-Comments in Python are marked by a # sign (for single-line comments) or three matching quotation marks (''' or """) if a comment requires more than one line.
-
-Some of the exercises require you to interpret what is going on. Feel free to explore other variations until you can come up with a reasonable explanation. 
-
-As with your assignments, please edit the LICENSE file (replace the [year] [fullname] with the current year and your name), and edit this file to describe what your code does.
-
-The following may be helpful to get you started:
-
-* [PyGame Drawing Basics](https://www.cs.ucsb.edu/~pconrad/cs5nm/topics/pygame/drawing/)
-* [pygame.draw.rect()](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect)
-* [pygame.draw.circle()](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle)
-* [pygame.font](https://www.pygame.org/docs/ref/font.html)
-* [PyGame Tutorial: Fonts and Text](http://www.nerdparadise.com/programming/pygame/part5)
-* [How to use Date and Time in Python](http://www.pythonforbeginners.com/basics/python-datetime-time-examples)
-* [PyGame Events](http://www.raspberry-pi-geek.com/Archive/2014/05/Pygame-modules-for-interactive-programs)
-* [pygame.event](https://cs.iupui.edu/~aharris/pgl/pygame-1.7.1release/docs/ref/pygame_event.html)
-* You can find some [nice colors here](https://yeun.github.io/open-color/) and their [RGB recipes here](https://yeun.github.io/open-color/ingredients.html)
-
----
-
-The grading criteria will be as follows:
-
-* [1 point] Repository contains an appropriate software license
-* [1 point] Repository contains a descriptive README.md
-* [8] Accomplishes the objective of the exercise
-
-10 points total
+The fourth and final exercise is a program that once run, shows a blank, black screen, but where ever the 
+user clicks with the mouse button, a circle of random size and color appears. Similar to exercise two, but
+instead of randomly placing the circle, it takes the position of the mouse button, and then within the
+event of the user clicking the mouse button, a circle appears at that current position. The program will
+run indefinitely until the user closes the window.
